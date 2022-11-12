@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include irsaa_report *.css
+recursive-include irsaa_report *.csv
+recursive-include irsaa_report *.html
+recursive-include irsaa_report *.ico
+recursive-include irsaa_report *.js
+recursive-include irsaa_report *.json
+recursive-include irsaa_report *.md
+recursive-include irsaa_report *.png
+recursive-include irsaa_report *.py
+recursive-include irsaa_report *.svg
+recursive-include irsaa_report *.txt
+recursive-exclude irsaa_report *.pyc
