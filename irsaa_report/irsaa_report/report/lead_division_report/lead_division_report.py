@@ -26,7 +26,7 @@ def get_data(filters):
 
 
 
-	data = frappe.db.sql(f"""SELECT name, business_division, business_line,business_line, lead_name, company_name, email_id, lead_owner, status, 
+	data = frappe.db.sql(f"""SELECT name, business_division, business_line,lead_name, company_name, email_id, lead_owner, status, 
 							salutation, designation, gender, source, customer  FROM `tabLead`
 							WHERE (creation BETWEEN '{_from}' AND '{to}') {conditions};""")
 	
